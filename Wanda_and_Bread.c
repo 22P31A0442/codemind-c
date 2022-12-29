@@ -1,15 +1,13 @@
 #include<stdio.h>
 int main()
 {
-    float n,m,k,s;
+    float n,m,k,r;
     scanf("%f%f%f",&n,&m,&k);
-    s=n/k;
-    if(s<=m)
+    r=n/k;
+    if(r<=m)
     {
         printf("YES");
     }
-    else if(s>m)
-    {
-        printf("NO");
-    }
+    else
+    printf("NO");
 }
